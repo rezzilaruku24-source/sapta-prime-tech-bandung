@@ -36,7 +36,13 @@ export default function Home() {
       <h3>📲 WhatsApp</h3>
       <a href="https://wa.me/6281222229455" target="_blank">
         Klik Chat WhatsApp
-      </a>
+      </a><a
+  href="https://wa.me/6281222229455"
+  target="_blank"
+  className="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg"
+>
+  Chat WhatsApp
+</a>
     </main>
   );
 }
